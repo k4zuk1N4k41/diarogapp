@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            h2{
+                text-align:center;
+            }
+            form{
+                text-align:center;
+            }
+        </style>
+        <title>認証画面</title>
+    </head>
+    <body>
+        <h2>情報を入力してください</h2>
+        <form action="/diarogapp/diarog" method="post">
+            ユーザー名（10文字以内）　<input type="text" name="userName" size="20"/><br/>
+            パスワード（数字4桁）　 　<input type="password" name="pass" size="20"/><br/><br/>
+            <input type="submit" name="btn" value="登録" />
+            <input type="submit" name="btn" value="ログイン" />        
+        </form>
+    </body>
+</html>
